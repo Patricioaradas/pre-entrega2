@@ -9,7 +9,7 @@
   border-radius: 6px;
   padding: 15px;
   margin: 15px;
-  background-color: rgb(217, 255, 0);
+  background-color: yellow;
 }
 .card img {
   width: 100%;
@@ -60,11 +60,12 @@ h5 {
 }
 
 .bg-puma {
-  background-color: rgb(227, 247, 4);
+  background-color: yellow;
 }
 
 a {
   text-decoration: none;
+  color: black;
   font-weight: bolder;
   text-transform: uppercase;
 }
@@ -97,14 +98,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(217, 255, 0);
+  background-color: yellow;
   border: 2px solid #000000;
   border-radius: 8px;
   padding: 20px;
 }
 .portada button {
   background-color: rgba(94, 94, 94, 0.7019607843);
-  color: #000000;
+  color: black;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;

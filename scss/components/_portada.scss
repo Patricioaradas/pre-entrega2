@@ -16,14 +16,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(217, 255, 0);
+    background-color: $color-amarillo;
     border: 2px solid #000000;
     border-radius: 8px;
     padding: 20px;
 
     button {
-        background-color: #5e5e5eb3;
-        color: #000000;
+        background-color: $color-grisoscuro;
+        color: $color-negro;
         border: none;
         padding: 10px 20px;
         font-size: 1rem;

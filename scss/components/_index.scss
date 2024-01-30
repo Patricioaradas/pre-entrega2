@@ -15,11 +15,16 @@ h5 {
 }
 
 .bg-puma {
-    background-color: rgb(227, 247, 4);
+    background-color: $color-amarillo;
+}
+
+@mixin anclas { 
+    text-decoration: none;
+    color: black;
 }
 
 a {
-    text-decoration: none;
+    @include anclas;
     font-weight: bolder;
     text-transform: uppercase;
 }
@@ -30,6 +35,6 @@ form {
 }
 
 body {
-    background-color: gray;
+    background-color: $color-gris;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
