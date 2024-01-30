@@ -1,0 +1,35 @@
+section p {
+    font-size: 1.2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 0.8rem;
+}
+
+h5 {
+    font-size: 0.7rem;
+}
+
+.bg-puma {
+    background-color: rgb(227, 247, 4);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

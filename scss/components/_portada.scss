@@ -1,0 +1,32 @@
+.containerPortada {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(10rem, 1fr));
+    gap: 15px;
+    text-align: center;
+    align-self: center;
+}
+
+.imgPortada {
+    display: block;
+    width: 100%;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 255, 0);
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+
+    button {
+        background-color: #5e5e5eb3;
+        color: #000000;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+}
