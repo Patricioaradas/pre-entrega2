@@ -36,6 +36,14 @@
   margin-top: 20px;
 }
 
+.nosotros {
+  text-align: center;
+}
+
+.textosab {
+  text-align: center;
+}
+
 .logo {
   width: 200px;
   border: solid;
@@ -78,6 +86,27 @@ form {
 body {
   background-color: gray;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nosotros {
+  text-align: center;
+}
+
+.textosab {
+  text-align: center;
+}
+
+blockquote {
+  background-color: #f9f9f9;
+  border-left: 5px solid #333;
+  margin: 10px 0;
+  padding: 10px;
+  font-style: italic;
+}
+
+.contacto {
+  text-align: center;
+  margin: 15px;
 }
 
 .containerPortada {
