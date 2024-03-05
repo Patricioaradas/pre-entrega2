@@ -1,5 +1,5 @@
 section p {
-    font-size: 1.2rem;
+    font-size: map-get($font-sizes, xl);
 }
 
 h1 {
@@ -7,26 +7,15 @@ h1 {
 }
 
 h4 {
-    font-size: 0.8rem;
+    font-size: map-get($font-sizes, l );
 }
 
 h5 {
-    font-size: 0.7rem;
+    font-size: map-get($font-sizes, m);
 }
 
 .bg-puma {
     background-color: $color-amarillo;
-}
-
-@mixin anclas { 
-    text-decoration: none;
-    color: black;
-}
-
-a {
-    @include anclas;
-    font-weight: bolder;
-    text-transform: uppercase;
 }
 
 form {

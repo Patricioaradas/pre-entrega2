@@ -3,15 +3,27 @@
         grid-template-columns: 1 fr 1fr;
     }
     
+    img {
+        width: 75%;
+        height: 75%;
+    }
+
     main{
         p{
-            font-size: 1rem
+            font-size: map-get($font-sizes, m);
         }
+    }
+
+    iframe{
+        width: 75%;
+        height: 75%;
     }
 
     footer{
         p{
-            font-size: 0.8rem;
+            font-size: map-get($font-sizes , xs);
+            flex-direction: column;
+            align-items: center;
         }
     }
     
@@ -21,15 +33,28 @@
     .containerPortada {
         grid-template-columns: 1fr;
     }
+
+    img{
+        width: 50%;
+        height: 50%;
+    }
+
     main{
         p{
-            font-size: 0.8rem
+            font-size: map-get($font-sizes, xs );
         }
+    }
+
+    iframe{
+        width: 50%;
+        height: 50%;
     }
 
     footer{
         p{
-            font-size: 0.6rem;
+            font-size: map-get($font-sizes, xss);
+            flex-direction: column;
+            align-items: center;
         }
     }
     

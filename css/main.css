@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
 .card {
   width: 250px;
   border: 1px solid rgb(0, 0, 0);
@@ -52,7 +59,7 @@
 }
 
 section p {
-  font-size: 1.2rem;
+  font-size: 32px;
 }
 
 h1 {
@@ -60,22 +67,15 @@ h1 {
 }
 
 h4 {
-  font-size: 0.8rem;
+  font-size: 24px;
 }
 
 h5 {
-  font-size: 0.7rem;
+  font-size: 16px;
 }
 
 .bg-puma {
   background-color: yellow;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  font-weight: bolder;
-  text-transform: uppercase;
 }
 
 form {
@@ -137,7 +137,7 @@ blockquote {
   color: black;
   border: none;
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 16px;
   margin-top: 10px;
 }
 
@@ -145,22 +145,42 @@ blockquote {
   .containerPortada {
     grid-template-columns: 1 fr 1fr;
   }
+  img {
+    width: 75%;
+    height: 75%;
+  }
   main p {
-    font-size: 1rem;
+    font-size: 16px;
+  }
+  iframe {
+    width: 75%;
+    height: 75%;
   }
   footer p {
-    font-size: 0.8rem;
+    font-size: 14px;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 768px) {
   .containerPortada {
     grid-template-columns: 1fr;
   }
+  img {
+    width: 50%;
+    height: 50%;
+  }
   main p {
-    font-size: 0.8rem;
+    font-size: 14px;
+  }
+  iframe {
+    width: 50%;
+    height: 50%;
   }
   footer p {
-    font-size: 0.6rem;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
